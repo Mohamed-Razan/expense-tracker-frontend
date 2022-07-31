@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  react-app:
+    build: .
+    container_name: expense_tracker_frontent
+    ports:
+      - '3500:3000'
+    stdin_open: true
+    tty: true
